@@ -182,6 +182,137 @@
 
 /* All media queries */
 
+@media screen and (max-width:2000px){
+   
+    #maindiv-signup-to-sana {
+        text-align: center;
+    }
+    .left-sign-up-to-sana{
+        margin-top: 100px;
+    }
+    #maindiv-signup-to-sana h4{
+        font-size: 30px;
+    }
+
+    #maindiv-signup-to-sana p{
+        font-size: 20px;
+    }
+    .heading6andparagraph h6{
+        font-size: 20px;
+    }
+    .heading6andparagraph p{
+        font-size: 18px;
+    }
+
+    .greencheckiconparentdiv{
+        margin-right: 100px;
+    }
+
+}
+
+
+
+@media screen and (max-width:1950px){
+   
+    .Picandtextmaindiv{
+        text-align: center;
+     
+    }
+    .Picandtextmaindiv{
+        margin-inline: 50px;
+    }
+    .left-sign-up-to-sana{
+        margin-top: 100px;
+    }
+    #maindiv-signup-to-sana h4{
+        font-size: 30px;
+    }
+
+    #maindiv-signup-to-sana p{
+        font-size: 20px;
+    }
+    .heading6andparagraph h6{
+        font-size: 20px;
+    }
+    .heading6andparagraph p{
+        font-size: 18px;
+    }
+    .greencheckiconparentdiv{
+        margin-right: 100px;
+    }
+    .copyrightp p{
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width:1500px){
+   
+    .Picandtextmaindiv{
+        text-align: center;
+  
+    }
+    .Picandtextmaindiv{
+        margin-inline: 50px;
+    }
+    .left-sign-up-to-sana{
+        margin-top: 50px;
+    }
+    #maindiv-signup-to-sana h4{
+        font-size: 25px;
+    }
+
+    #maindiv-signup-to-sana p{
+        font-size: 16px;
+    }
+    .heading6andparagraph h6{
+        font-size: 20px;
+    }
+    .heading6andparagraph p{
+        font-size: 18px;
+    }
+    .greencheckiconparentdiv{
+        margin-right: 100px;
+    }
+    .copyrightp p{
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width:1310px){
+   
+    .Picandtextmaindiv{
+        text-align: center;
+   
+    }
+    .Picandtextmaindiv{
+        margin-inline: 100px;
+    }
+    .left-sign-up-to-sana{
+        margin-top: 50px;
+    }
+    #maindiv-signup-to-sana h4{
+        font-size: 20px;
+    }
+
+    #maindiv-signup-to-sana p{
+        font-size: 16px;
+    }
+    .heading6andparagraph h6{
+        font-size: 13px;
+    }
+    .heading6andparagraph p{
+        font-size: 12px;
+    }
+    .greencheckiconparentdiv{
+        margin-right: 0px;
+    }
+    .copyrightp p{
+        margin-top: 100px;
+    }
+}
+
+
+
 @media screen and (max-width:1300px){
     
  
@@ -243,11 +374,7 @@
        
     }
 
-    .Picandtextmaindiv{
-    
-        margin-inline: 120px;
-    }
-}
+
 
 @media screen and (max-width:720px){
     
@@ -346,4 +473,18 @@
         font-size: 12px;
     }
  
+}
+
+
+
+@media screen and (max-width:700px){
+    
+    #maindiv-signup-to-sana{
+       display: none;
+    }
+    .copyrightp p{
+        padding-top: 80px;
+    }
+
+}
 }
