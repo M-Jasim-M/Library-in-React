@@ -176,7 +176,7 @@
 }
 
 #copyrightlastlinep{
-    margin-top: 70px;
+    margin-top: 30px;
 }
 
 
@@ -277,6 +277,95 @@
         margin-top: 100px;
     }
 }
+
+
+
+@media screen and (max-width:2000px) {
+    .createaccounth4andpdiv{
+        padding-inline: 80px;
+
+        margin-top: 50px;
+    }
+
+    #maindiv-createaccount-to-sana h4{
+        font-size: 25px;
+    }
+
+    #maindiv-createaccount-to-sana p{
+        font-size: 18px;
+        padding-top: 10px;
+    }
+    .createaccounth4andpdiv h4{
+        font-size: 25px;
+    }
+    .createaccounth4andpdiv p{
+        font-size: 16px;
+    }
+    .createaccounth4andpdiv input {
+        padding: 15px;
+    }
+    .createaccounth4andpdiv button{
+        padding: 15px;
+    }
+    .createaccounth4andpdiv small{
+        font-size: 15px;
+    }
+    .createaccounth4andpdiv input{
+        font-size: 15px;
+    }
+
+    .facebookbtndiv span{
+        font-size: 14px;
+    }
+
+    .signupline span{
+        font-size: 14px;
+    }
+ }
+
+ @media screen and (max-width:1450px) {
+    .createaccounth4andpdiv{
+        padding-inline: 50px;
+        /* border: 2px solid red; */
+        margin-top: 30px;
+    }
+
+    #maindiv-createaccount-to-sana h4{
+        font-size: 25px;
+    }
+
+    #maindiv-createaccount-to-sana p{
+        font-size: 18px;
+        padding-top: 10px;
+    }
+    .createaccounth4andpdiv h4{
+        font-size: 25px;
+    }
+    .createaccounth4andpdiv p{
+        font-size: 16px;
+    }
+    .createaccounth4andpdiv input {
+        padding: 15px;
+    }
+    .createaccounth4andpdiv button{
+        padding: 15px;
+    }
+    .createaccounth4andpdiv small{
+        font-size: 15px;
+    }
+    .createaccounth4andpdiv input{
+        font-size: 15px;
+    }
+
+    .facebookbtndiv span{
+        font-size: 14px;
+    }
+
+    .signupline span{
+        font-size: 14px;
+    }
+ }
+
 
 @media screen and (max-width:1310px){
    
