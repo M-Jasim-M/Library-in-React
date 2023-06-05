@@ -83,7 +83,7 @@
 }
 
 .left-sign-up-to-sana h2{
-    padding-top: 60px;
+    padding-top: 30px;
     font-family: 'Montserrat';
     font-weight: 600;
     font-size: 30px;
@@ -241,7 +241,7 @@
         margin-right: 100px;
     }
     .copyrightp p{
-        margin-top: 100px;
+        padding-top: 30px;
     }
 }
 
@@ -274,7 +274,7 @@
         margin-right: 100px;
     }
     .copyrightp p{
-        margin-top: 100px;
+        padding-top: 20px;
     }
 }
 
@@ -396,7 +396,7 @@
         margin-right: 0px;
     }
     .copyrightp p{
-        margin-top: 100px;
+        padding-top: 10px;
     }
 }
 

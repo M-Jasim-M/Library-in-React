@@ -182,7 +182,7 @@
     font-weight: 400;
     font-size: 13px;
     color: var(--blackColor);
-    margin-top: 30px;
+    padding-top: 10px;
     opacity: 0.6;
 
 }
@@ -205,7 +205,7 @@
         padding-top: 10px;
     }
     .createaccounth4andpdiv h4{
-        font-size: 25px;
+        font-size: 30px;
     }
     .createaccounth4andpdiv p{
         font-size: 16px;
@@ -232,6 +232,9 @@
     }
     .smallandinput{
     margin-top: 5px;
+}
+.copyrightp p{
+    padding-top: 30px;
 }
 
  }
@@ -277,7 +280,7 @@
         font-size: 12px;
     }
     .copyrightp p{
-        margin-top: 30px;
+        padding-top: 20px;
     }
  }
 
@@ -323,7 +326,7 @@
     }
 
     .copyrightp p{
-        margin-top: 50px;
+        padding-top: 40px;
     }
  }
 
@@ -364,7 +367,7 @@
         width: 100%;
     }
     .copyrightp p{
-        margin-top: 100px;
+        padding-top: 40px;
     }
  }
  
@@ -384,7 +387,7 @@
         width: 100%;
     }
     .copyrightp p{
-        margin-top: 30px;
+        padding-top: 30px;
     }
  }
 
@@ -403,7 +406,7 @@
         display: none;
     }   
     .copyrightp p{
-        margin-top: 50px;
+        padding-top: 50px;
     }
         
     }
