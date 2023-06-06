@@ -21,7 +21,7 @@ export default function Welcometosana() {
         <Row>
             <Col lg={5} md={12} id='maindiv-createaccount-to-sana'>
 
-                <img className='img-fluid' src={Welcomepic} alt="" />
+                <img className='img-fluid' id='welcomepic' src={Welcomepic} alt="" />
                     <h4>Nature's for Optimal Health</h4>
                     <p>Unlock the Benefits of Nature for Your <br /> Well-Being</p>
                     <div className='line'> </div>

@@ -6,6 +6,12 @@
     opacity: 0.6;
 }
 
+#welcomepic{
+    width: 320px !important;
+    height: 310px !important;
+    margin-top: -50px;
+}
+
 #welcomesignupbutton{
     border: none;
     outline: none;
