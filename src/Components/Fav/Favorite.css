@@ -1,0 +1,98 @@
+.fmain{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.famain {
+    margin: 20px;
+    width: 200px;
+    height: 240px;
+    background-color: rgba(121, 118, 118, 0.034);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    border-radius: 15px;
+    transition: 2s;
+}
+
+.famain img {
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.famain:hover{
+    transform: scale(1.1);
+}
+
+.famain span:nth-child(2) {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.famain span:nth-child(3) {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.disda {
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.disda a {
+    text-decoration: none;
+    border-radius: 30px;
+    color: black;
+}
+
+.disda>*:hover {
+    background-color: gray;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.down {
+    background-color: white;
+    padding: 2px 8px 2px 6px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.down:hover {
+    background-color: gray;
+}
+
+.remo {
+    padding: 2px 8px 2px 6px;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: white;
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+.emp{
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.219);
+}
+.famain a{
+    text-decoration: none;
+    color: black;
+}
+.rad{
+    margin-top: 3px;
+    font-size: 14px;
+font-weight: 500;
+cursor: pointer; 
+}

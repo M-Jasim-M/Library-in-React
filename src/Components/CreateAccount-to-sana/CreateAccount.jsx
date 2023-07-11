@@ -8,6 +8,7 @@ import Col from 'react-bootstrap/Col';
 import signuptosana from '../../Asserts/Img/signup.svg'
 import facebook from '../../Asserts/Img/facebook.svg'
 import google from '../../Asserts/Img/google.svg'
+import signuptolib from '../../Asserts/Img/lipic.png'
 
 
 // icon 
@@ -21,9 +22,9 @@ export default function CreateAccount() {
         <Row>
             <Col lg={5} md={12} id='maindiv-createaccount-to-sana'>
 
-                <img className='img-fluid' src={signuptosana} alt="" />
-                    <h4>Health with Herbal Solutions</h4>
-                    <p>Book Consultations with Expert Herbalists <br /> for Personalized Care</p>
+                <img className='img-fluid' src={signuptolib} alt="" />
+                    <h4>Books and Key Stories</h4>
+                    <p>Book Consultations with Expert Profers <br /> for Personalized Study</p>
                     <div className='line'> </div>
                     </Col>
 
@@ -38,13 +39,13 @@ export default function CreateAccount() {
 
                     <div className='createaccounth4andpdiv'>
                         <h4>Create an Account</h4>
-                        <p>Discover a world of natural remedies with our expert <br /> herbalists</p>
+                        <p>Discover a world Best Books with our expert <br /> Profers</p>
                         
                         <div className='smallandinput'>
                             <small>Your Email</small>
                             </div>
                         <input type="text" placeholder='Enter Email Here' />
-
+                         
                         <div className='smallandinput'>
                             <small>Password</small>
                             </div>

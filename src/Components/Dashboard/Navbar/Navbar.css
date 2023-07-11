@@ -1,0 +1,41 @@
+.nav{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    /* background-color: rgba(121, 118, 118, 0.034); */
+background-color: white;
+    padding-bottom: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+    }
+    .logo{
+    margin-left: -40px;
+    font-size: 22px;
+    font-weight: 600;
+    }
+    .links{
+        display: flex;
+        gap: 20px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .links a{
+        text-decoration: none;
+        color: black;
+    }
+    .links a.active{
+        color: blue;
+    }
+    .links li{
+    list-style: none;
+    
+    }
+    .logout{
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    }

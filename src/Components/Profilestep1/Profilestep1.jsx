@@ -9,7 +9,7 @@ import Col from 'react-bootstrap/Col';
 
 // pics
 import profile1 from '../../Asserts/Img/profile1.svg'
-
+import signinto from  '../../Asserts/Img/lipic.png'
 
 // icon 
 import { Icon } from '@iconify/react';
@@ -23,9 +23,9 @@ export default function Profilestep1() {
         <Row>
             <Col lg={5} md={12} id='maindiv-createaccount-to-sana'>
 
-                    <img className='img-fluid' id='profilepic' src={profile1} alt="" />
-                    <h4>Nature's for Optimal Health</h4>
-                    <p>Unlock the Benefits of Nature for Your <br />
+                    <img className='img-fluid' id='profilepic' src={signinto} alt="" />
+                    <h4>Library for Getting Knowledge</h4>
+                    <p>Unlock the Benefits Books for Your <br />
                      Well-Being</p>
                     <div className='line'> </div>
                     </Col>
@@ -40,7 +40,7 @@ export default function Profilestep1() {
                             <div className="profilecontentmaindiv">
                                 <h6><a href="/">Step 01 / <a href="/"> 02</a></a></h6>
                                 <h3>Setup Your Profile</h3>
-                                <p>Get Started with a Comprehensive Herbal Health <br /> Profile</p>
+                                <p>Get Started with a Comprehensive Books <br /> Profile</p>
 
                                
                                 <div className='smallandinputmaindiv'>

@@ -10,6 +10,7 @@ import Col from 'react-bootstrap/Col';
 import Welcomepic from '../../Asserts/Img/welcomepic.svg'
 import facebook from '../../Asserts/Img/facebook.svg'
 import google from '../../Asserts/Img/google.svg'
+import welpic from '../../Asserts/Img/lipic.png'
 
 // icon 
 import { Icon } from '@iconify/react';
@@ -21,9 +22,9 @@ export default function Welcometosana() {
         <Row>
             <Col lg={5} md={12} id='maindiv-createaccount-to-sana'>
 
-                <img className='img-fluid' id='welcomepic' src={Welcomepic} alt="" />
+                <img className='img-fluid' id='welcomepic' src={welpic} alt="" />
                     <h4>Nature's for Optimal Health</h4>
-                    <p>Unlock the Benefits of Nature for Your <br /> Well-Being</p>
+                    <p>Unlock the Benefits of books for Your <br /> Well-Being</p>
                     <div className='line'> </div>
                     </Col>
 
@@ -38,7 +39,7 @@ export default function Welcometosana() {
 
                     <div className='createaccounth4andpdiv'>
                         <h4>Welcome Back!</h4>
-                        <p>Discover a world of natural remedies with <br /> our expert herbalists</p>
+                        <p>Discover a world of Library with <br /> our expert Profers</p>
                         
                         <div className='smallandinput'>
                             <small>Your Email</small>

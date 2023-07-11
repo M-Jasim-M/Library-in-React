@@ -1,0 +1,6 @@
+.bmain{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 1000px;
+}

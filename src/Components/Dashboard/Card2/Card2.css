@@ -1,0 +1,61 @@
+.camain{
+    margin: 20px;
+    width: 200px;
+    height: 240px;
+    background-color: rgba(121, 118, 118, 0.034);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    border-radius: 15px;
+}
+.camain img{
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.camain span:nth-child(2){
+font-size: 16px;
+font-weight: 600;
+}
+.camain span:nth-child(3){
+    font-size: 15px;
+font-weight: 500;
+}
+
+.disda{
+display: flex;
+gap: 10px;
+font-size: 14px;
+font-weight: 500;
+cursor: pointer;
+}
+.disda a{
+    text-decoration: none;
+    border-radius: 30px;
+    color: black;
+}
+.disda>*:hover{
+    background-color: gray;
+    transform: scale(1.1);
+    transition: 1s;
+}
+.down{
+background-color: white;
+padding: 2px 8px 2px 6px;
+    border-radius: 16px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.down:hover{
+    background-color: gray;
+}
+.add{
+    padding: 2px 8px 2px 6px;
+    border-radius: 16px;
+    background-color: white;
+    display: flex;
+justify-content: center;
+align-items: center;
+}

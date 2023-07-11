@@ -9,7 +9,7 @@ import Col from 'react-bootstrap/Col';
 
 // pics
 import verification from '../../Asserts/Img/signup1.svg'
-
+import booke from '../../Asserts/Img/lipic.png'
 
 // icon 
 import { Icon } from '@iconify/react';
@@ -21,9 +21,9 @@ export default function Verification() {
         <Row>
             <Col lg={5} md={12} id='maindiv-createaccount-to-sana'>
 
-                    <img className='img-fluid' src={verification} alt="" />
-                    <h4>The Power of Herbal Medicine</h4>
-                    <p>Book Consultations with Expert Herbalists for <br /> Personalized Care</p>
+                    <img className='img-fluid' src={booke} alt="" />
+                    <h4>The Power of Books</h4>
+                    <p>Book Consultations with Expert Profesers for <br /> Personalized Study</p>
                     <div className='line'> </div>
                     </Col>
 
@@ -52,7 +52,7 @@ export default function Verification() {
 
                         </div>
 
-                        <p id='copyright'>Copyright © 2023 Herbalist. All rights reserved.</p>
+                        {/* <p id='copyright'>Copyright © 2023 Herbalist. All rights reserved.</p> */}
                         
                     </Container>
 

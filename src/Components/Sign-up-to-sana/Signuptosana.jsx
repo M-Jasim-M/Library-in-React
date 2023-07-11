@@ -10,6 +10,7 @@ import signuptosana from '../../Asserts/Img/signup1.svg'
 import pic1 from '../../Asserts/Img/1.svg'
 import pic2 from '../../Asserts/Img/2.svg'
 import pic3 from '../../Asserts/Img/3.svg'
+import bookimg from '../../Asserts/Img/lipic.png'
 
 // icon 
 import { Icon } from '@iconify/react';
@@ -21,9 +22,9 @@ export default function Signuptosana() {
 <Container fluid>
       <Row>
         <Col lg={5} md={12} id='maindiv-signup-to-sana'> 
-            <img className='img-fluid' src={signuptosana} alt="" />
-            <h4>The Power Of Herbal Medicine</h4>
-            <p>Book Consultations with Expert Herbalists for Personalized Care</p>
+            <img className='img-fluid' src={bookimg} alt="" />
+            <h4>The Power Of Books</h4>
+            <p>Book Consultations with Expert Profesers for Personalized Study</p>
             <div className='line'> </div>
          </Col>
 
@@ -38,7 +39,7 @@ export default function Signuptosana() {
 
 
                     <div className="left-sign-up-to-sana">
-                      <h2>Sign Up To, Sana!</h2>
+                      <h2>Sign Up To, Library!</h2>
                       <p>how do you want join our wide community by becoming?</p>
 
                       <div id='picandtext'  className='Picandtextmaindiv'>

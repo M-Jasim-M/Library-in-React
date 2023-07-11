@@ -9,9 +9,9 @@
 }
 
 :root{
-    --greenColor : #34A853;
+    /* --greenColor : #34A853; */
+        --greenColor : #f9f968;
     --blackColor : #1A1919;
     --darkGray : #656575;
     --gray : #CFCFCF;
-    
 }

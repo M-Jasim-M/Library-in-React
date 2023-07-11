@@ -14,7 +14,7 @@
 
 #maindiv-createaccount-to-sana img{
     height: 230px;
-    width: 230px;
+    width: 350px;
 }
 
 #maindiv-createaccount-to-sana h4{
@@ -68,7 +68,8 @@
     background-color: var(--greenColor);
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
-    color: #fff;
+    /* color: #fff; */
+    color: #000;
     font-weight: 400;
     font-size: 14px;
     cursor: pointer;
@@ -116,9 +117,19 @@
 }
 
 .smallandinput{
-    margin-top: 5px;
-}
+    margin-top: 30px;
+    position: relative;
 
+}
+.smallandinput small{
+    position: absolute; /* Added */
+    top: -12px; /* Adjust the value as needed */
+    font-family: 'Montserrat',  'sans-serif';
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 20px;
+    background-color: #fff;
+}
 
 .createaccounth4andpdiv button{
     background-color: var(--greenColor);
@@ -130,7 +141,8 @@
     border-radius: 8px;
     font-size: 13px;
     width: 90%;
-    color: #fff;
+    /* color: #fff; */
+    color: #000;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     
@@ -231,7 +243,7 @@
         font-size: 14px;
     }
     .smallandinput{
-    margin-top: 5px;
+        margin-top: 30px;
 }
 .copyrightp p{
     padding-top: 30px;
@@ -311,7 +323,7 @@
         padding: 10px;
     }
     .createaccounth4andpdiv small{
-        font-size: 12px;
+        font-size: 14px;
     }
     .createaccounth4andpdiv input{
         font-size: 12px;
